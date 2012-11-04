@@ -23,7 +23,7 @@ Old and busted:
 New hotness:
 
 1. recieve request for list of search results
-2. begin sending template, output stops when more data is required to continue
+2. begin sending template, output pauses when more data is required to continue
 3. verify validity of request
 4. begin the search
 5. send search results to client as they come in
