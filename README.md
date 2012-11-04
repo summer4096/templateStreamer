@@ -12,6 +12,7 @@ It doesn't actually parse template strings yet, but instead works with compiled 
 Instead of the traditional put-data-in-get-strings-out business, this instead works as a stream. You begin rendering the template immediately, providing it with data when it becomes available to you.
 
 Old and busted:
+
 1. recieve request for list of search results
 2. verify validity of request
 3. begin the search
@@ -20,6 +21,7 @@ Old and busted:
 6. send that string to the client
 
 New hotness:
+
 1. recieve request for list of search results
 2. begin sending template, output stops when more data is required to continue
 3. verify validity of request
