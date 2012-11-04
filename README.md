@@ -27,6 +27,6 @@ New hotness:
 3. verify validity of request
 4. begin the search
 5. send search results to client as they come in
-6. profot
+6. profit
 
 As a result, pages load much more quickly, because everything is done at once. The user starts downloading the page before the server-side logic even begins.
